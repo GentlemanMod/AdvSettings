@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="@string/system_settings_title" >
+
+    <PreferenceCategory
+            android:title="@string/system_settings_title" />
+
+    <PreferenceScreen
+            android:title="@string/mtk_emode_title"
+            android:summary="@string/mtk_emode_summary">
+        <intent
+                android:targetPackage="com.mediatek.engineermode"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.mediatek.engineermode.EngineerMode" />
+    </PreferenceScreen>
+    
+    <PreferenceScreen
+            android:title="@string/network_mode_title"
+            android:summary="@string/network_mode_summary">
+        <intent
+                android:targetPackage="zte.com.cn.emode"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="zte.com.cn.emode.NetWorkType" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            android:title="@string/auto_start_title"
+            android:summary="@string/auto_start_summary">
+        <intent
+                android:targetPackage="com.elsdoerfer.android.autostarts"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.elsdoerfer.android.autostarts.ListActivity" />
+    </PreferenceScreen>
+    
+    <PreferenceScreen
+            android:title="@string/change_imei_title"
+            android:summary="@string/change_imei_summary">
+        <intent
+                android:targetPackage="zte.com.cn.emode"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="zte.com.cn.emode.IMEISecSet" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            android:title="@string/change_meid_title"
+            android:summary="@string/change_meid_summary">
+        <intent
+                android:targetPackage="zte.com.cn.emode"
+                android:action="android.intent.action.MAIN"
+                android:targetClass="zte.com.cn.emode.MEIDSet" />
+    </PreferenceScreen>
+
+    <PreferenceCategory
+            android:title="@string/other_title" />
+
+    <PreferenceScreen
+            android:title="@string/shutdown_title"
+            android:summary="@string/shutdown_summary">
+        <intent
+                android:action="com.michellgaby.advsettings.shutdown" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            android:title="@string/quick_reboot_title"
+            android:summary="@string/quick_reboot_summary">
+        <intent
+                android:action="com.michellgaby.advsettings.quickreboot" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            android:title="@string/reboot_recovery_title"
+            android:summary="@string/reboot_recovery_summary">
+        <intent
+                android:action="com.michellgaby.advsettings.recreboot" />
+    </PreferenceScreen>
+
+    <PreferenceCategory
+            android:title="@string/makers_title" />
+    
+    <PreferenceScreen
+            android:title="@string/makers_name"
+            android:summary="@string/makers_summary">
+    </PreferenceScreen>
+    
+</PreferenceScreen>

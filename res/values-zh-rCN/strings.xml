@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">高级设置</string>
+    <string name="other_title">其他选项</string>
+    <string name="audio_settings_title">音效设置</string>
+    <string name="system_settings_title">系统相关</string>
+    <string name="general_settings_title">常规设置</string>
+
+    <!-- Open/Close BackLight / Google Service / Storage SWitch -->
+    <string name="backlight_title">键盘灯</string>
+    <string name="camera_click_title">拍照音效</string>
+    <string name="camera_focus_title">对焦音效</string>
+    <string name="camera_shutter_title">连拍音效</string>
+    <string name="videorecord_title">摄像音效</string>
+    <string name="backlight_summary">开启/关闭键盘灯</string>
+    <string name="camera_click_summary">开启/关闭拍照音效</string>
+    <string name="camera_focus_summary">开启/关闭对焦音效</string>
+    <string name="camera_shutter_summary">开启/关闭连拍音效</string>
+    <string name="videorecord_summary">开启/关闭摄像音效</string>
+    <string name="email_service_title">邮箱服务</string>
+    <string name="email_service_summary">开启/关闭邮箱服务</string>
+    <string name="google_service_title">谷歌服务</string>
+    <string name="google_service_summary">开启/关闭谷歌服务</string>
+    <string name="switch_storage_title">主存储设备设置</string>
+    <string name="switch_storage_summary">内置/外置SD卡主存储切换</string>
+    <string name="internal_sdcard">内置SD卡</string>
+    <string name="external_sdcard">外置SD卡</string>
+
+    <!-- System Settings / Reboot (Recovery) / Change IMEI (MEID) -->
+    <string name="shutdown_title">正常关机</string>
+    <string name="quick_reboot_title">快速重启</string>
+    <string name="reboot_recovery_title">刷机模式</string>
+    <string name="shutdown_summary">彻底关闭手机电源</string>
+    <string name="quick_reboot_summary">快速重启手机，省时节能</string>
+    <string name="reboot_recovery_summary">重启到 Recovery 进行刷机等操作</string>
+    <string name="confirm_shutdown">确认正常关机?</string>
+    <string name="confirm_reboot">确认快速重启?</string>
+    <string name="confirm_recreboot">确认进入刷机模式?</string>
+    <string name="mtk_emode_title">MTK工程模式</string>
+    <string name="mtk_emode_summary">调用MTK工程模式进行手机设备测试或调整</string>
+    <string name="network_mode_title">首选网络模式</string>
+    <string name="network_mode_summary">EvDo/CDMA首选网络模式切换</string>
+    <string name="auto_start_title">启动项管理</string>
+    <string name="auto_start_summary">管理手机启动时的默认启动项目</string>
+    <string name="change_imei_title">IMEI设置</string>
+    <string name="change_imei_summary">修改手机IMEI（GSM, 需手动重启）</string>
+    <string name="change_meid_title">MEID设置</string>
+    <string name="change_meid_summary">修改手机MEID（便于双清/恢复出厂后恢复）</string>
+    <string name="makers_title">关于程序</string>
+    <string name="makers_name">作者: Michellgaby</string>
+    <string name="makers_summary">更多信息请关注搞机圈论坛.</string>
+
+    <!-- Other String -->
+    <string name="OK">确认</string>
+    <string name="CANCEL">取消</string>
+
+</resources>

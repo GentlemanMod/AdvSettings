@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_switch_storage">
+        <item>@string/internal_sdcard</item>
+        <item>@string/external_sdcard</item>
+    </string-array>
+    <string-array name="values_switch_storage" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

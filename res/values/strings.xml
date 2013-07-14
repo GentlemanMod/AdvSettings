@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdvSettings</string>
+    <string name="other_title">Other Settings</string>
+    <string name="audio_settings_title">Audio Settings</string>
+    <string name="system_settings_title">System Settings</string>
+    <string name="general_settings_title">General Settings</string>
+
+    <!-- Open/Close BackLight / Google Service / Storage SWitch -->
+    <string name="backlight_title">Backlight</string>
+    <string name="camera_click_title">Click audio</string>
+    <string name="camera_focus_title">Focus audio</string>
+    <string name="camera_shutter_title">Shutter audio</string>
+    <string name="videorecord_title">Video audio</string>
+    <string name="backlight_summary">Open/CLose Backlight</string>
+    <string name="camera_click_summary">Open/CLose Click audio</string>
+    <string name="camera_focus_summary">Open/CLose Focus audio</string>
+    <string name="camera_shutter_summary">Open/CLose Shutter audio</string>
+    <string name="videorecord_summary">Open/CLose Video audio</string>
+    <string name="email_service_title">Email Service</string>
+    <string name="email_service_summary">Open/CLose Email Service</string>
+    <string name="google_service_title">Google Service</string>
+    <string name="google_service_summary">Open/CLose Google Service</string>
+    <string name="switch_storage_title">Switch storage</string>
+    <string name="switch_storage_summary">Switch In/External SD</string>
+    <string name="internal_sdcard">Internal SD</string>
+    <string name="external_sdcard">External SD</string>
+
+    <!-- System Settings / Reboot (Recovery) / Change IMEI (MEID) -->
+    <string name="shutdown_title">Shutdown</string>
+    <string name="quick_reboot_title">Quick reboot</string>
+    <string name="reboot_recovery_title">Recovery</string>
+    <string name="shutdown_summary">Completely turn the phone off</string>
+    <string name="quick_reboot_summary">Quick restart the phone, saving time and energy</string>
+    <string name="reboot_recovery_summary">Reboot into Recovery mode</string>
+    <string name="confirm_shutdown">Confirm Shutdown?</string>
+    <string name="confirm_reboot">Confirm Quick reboot?</string>
+    <string name="confirm_recreboot">Confirm Reboot Recovery?</string>
+    <string name="mtk_emode_title">MTK Engineering mode</string>
+    <string name="mtk_emode_summary">Engineering mode for phone calls MTK</string>
+    <string name="network_mode_title">Preferred network mode</string>
+    <string name="network_mode_summary">Switch EvDo/CDMA mode</string>
+    <string name="auto_start_title">auto start</string>
+    <string name="auto_start_summary">Manage your auto start</string>
+    <string name="change_imei_title">IMEI Change</string>
+    <string name="change_imei_summary">Change Phone IMEI</string>
+    <string name="change_meid_title">MEID Change</string>
+    <string name="change_meid_summary">Change Phone MEID</string>
+    <string name="makers_title">About</string>
+    <string name="makers_name">Makers: Michellgaby</string>
+    <string name="makers_summary">Please Goto www.gaojiquan.com</string>
+
+    <!-- Other String -->
+    <string name="OK">OK</string>
+    <string name="CANCEL">Cancel</string>
+
+</resources>

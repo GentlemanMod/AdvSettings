@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:title="@string/general_settings_title" >
+
+    <PreferenceCategory
+            android:title="@string/general_settings_title" />
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="status_backlight"
+            android:title="@string/backlight_title"
+            android:summary="@string/backlight_summary"/>
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="status_email_service"
+            android:title="@string/email_service_title"
+            android:summary="@string/email_service_summary"/>
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="status_google_service"
+            android:title="@string/google_service_title"
+            android:summary="@string/google_service_summary"/>
+
+    <ListPreference
+            android:dialogTitle="@string/switch_storage_title"
+            android:entries="@array/entries_switch_storage"
+            android:entryValues="@array/values_switch_storage"
+            android:key="status_switch_storage"
+            android:title="@string/switch_storage_title" />
+
+    <PreferenceCategory
+            android:title="@string/audio_settings_title" />
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="status_camera_click"
+            android:title="@string/camera_click_title"
+            android:summary="@string/camera_click_summary"/>
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="status_camera_focus"
+            android:title="@string/camera_focus_title"
+            android:summary="@string/camera_focus_summary"/>
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="status_camera_shutter"
+            android:title="@string/camera_shutter_title"
+            android:summary="@string/camera_shutter_summary"/>
+
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="status_videorecord"
+            android:title="@string/videorecord_title"
+            android:summary="@string/videorecord_summary"/>
+
+
+</PreferenceScreen>
