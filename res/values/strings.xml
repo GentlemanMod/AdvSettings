@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AdvSettings</string>
-    <string name="other_title">Other Settings</string>
+    <string name="status_title">Status Settings</string>
     <string name="audio_settings_title">Audio Settings</string>
     <string name="system_settings_title">System Settings</string>
     <string name="general_settings_title">General Settings</string>
@@ -27,15 +27,14 @@
     <string name="external_sdcard">External SD</string>
 
     <!-- System Settings / Reboot (Recovery) / Change IMEI (MEID) -->
-    <string name="shutdown_title">Shutdown</string>
-    <string name="quick_reboot_title">Quick reboot</string>
-    <string name="reboot_recovery_title">Recovery</string>
-    <string name="shutdown_summary">Completely turn the phone off</string>
-    <string name="quick_reboot_summary">Quick restart the phone, saving time and energy</string>
-    <string name="reboot_recovery_summary">Reboot into Recovery mode</string>
-    <string name="confirm_shutdown">Confirm Shutdown?</string>
-    <string name="confirm_reboot">Confirm Quick reboot?</string>
-    <string name="confirm_recreboot">Confirm Reboot Recovery?</string>
+    <string name="right_lockscreen_title">Right Lockscreen</string>
+    <string name="right_lockscreen_summary">Open/CLose Right Lockscreen</string>
+    <string name="left_lockscreen_title">Left Lockscreen</string>
+    <string name="left_lockscreen_summary">Open/CLose Left Lockscreen</string>
+    <string name="traffic_title">Status Traffic</string>
+    <string name="traffic_summary">Open/CLose Status Traffic</string>
+    <string name="status_semipermeable_title">Status Semipermeable</string>
+    <string name="status_semipermeable_summary">Open/CLose Status Semipermeable</string>
     <string name="mtk_emode_title">MTK Engineering mode</string>
     <string name="mtk_emode_summary">Engineering mode for phone calls MTK</string>
     <string name="network_mode_title">Preferred network mode</string>
@@ -49,9 +48,5 @@
     <string name="makers_title">About</string>
     <string name="makers_name">Makers: Michellgaby</string>
     <string name="makers_summary">Please Goto www.gaojiquan.com</string>
-
-    <!-- Other String -->
-    <string name="OK">OK</string>
-    <string name="CANCEL">Cancel</string>
 
 </resources>

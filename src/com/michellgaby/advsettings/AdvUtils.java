@@ -1,5 +1,6 @@
 package com.michellgaby.advsettings;
 
+import java.io.File;
 import java.io.PrintWriter;
 
 import android.app.ProgressDialog;
@@ -7,6 +8,20 @@ import android.util.Log;
 
 public class AdvUtils {
 
+	private static String settingsPath = "/data/data/com.michellgaby.advsettings/";
+
+    public static boolean isFileExists(String name)
+    {
+    	String fullname = settingsPath + "/" + name;
+    	File file = new File(fullname);
+    	return file.exists();
+    }
+    public static boolean isFileNotExists(String name)
+    {
+    	String fullname = settingsPath + "/" + name;
+    	File file = new File(fullname);
+    	return !file.exists();
+    }
     public static void runCmd(String cmd)
     {
     	try {
@@ -27,17 +42,4 @@ public class AdvUtils {
 		}
     }
 
-    public static void reboot(int mode) {
-    	switch (mode) {
-            case 0:
-                runCmd("reboot -p");
-                break;
-    		case 1:
-    			runCmd("busybox killall system_server");
-    			break;
-    		case 2:
-    			runCmd("reboot recovery");
-    			break;
-    	}
-    }
 }

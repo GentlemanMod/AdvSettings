@@ -66,10 +66,12 @@ public class GeneralSettings extends PreferenceFragment implements
                 AdvUtils.runCmd("/system/etc/Advsettings.sh 9");
     			Settings.System.putInt(getActivity().getContentResolver(),
     					STATUS_SWITCH_STORAGE, statusSwitchStorage);
+    			Log.e("Advsettings", "9");
             } else {
                 AdvUtils.runCmd("/system/etc/Advsettings.sh 10");
     			Settings.System.putInt(getActivity().getContentResolver(),
     					STATUS_SWITCH_STORAGE, statusSwitchStorage);
+    			Log.e("Advsettings", "10");
             }
             mStatusSwitchStorage
                     .setSummary(mStatusSwitchStorage.getEntries()[index]);

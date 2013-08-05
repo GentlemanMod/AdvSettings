@@ -52,28 +52,31 @@
     </PreferenceScreen>
 
     <PreferenceCategory
-            android:title="@string/other_title" />
+            android:title="@string/status_title" />
 
-    <PreferenceScreen
-            android:title="@string/shutdown_title"
-            android:summary="@string/shutdown_summary">
-        <intent
-                android:action="com.michellgaby.advsettings.shutdown" />
-    </PreferenceScreen>
-
-    <PreferenceScreen
-            android:title="@string/quick_reboot_title"
-            android:summary="@string/quick_reboot_summary">
-        <intent
-                android:action="com.michellgaby.advsettings.quickreboot" />
-    </PreferenceScreen>
-
-    <PreferenceScreen
-            android:title="@string/reboot_recovery_title"
-            android:summary="@string/reboot_recovery_summary">
-        <intent
-                android:action="com.michellgaby.advsettings.recreboot" />
-    </PreferenceScreen>
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="right_lockscreen"
+            android:title="@string/right_lockscreen_title"
+            android:summary="@string/right_lockscreen_summary"/>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="left_lockscreen"
+            android:title="@string/left_lockscreen_title"
+            android:summary="@string/left_lockscreen_summary"/>
+    
+    <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="traffic"
+            android:title="@string/traffic_title"
+            android:summary="@string/traffic_summary"/>
+    
+    <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="status_semipermeable"
+            android:title="@string/status_semipermeable_title"
+            android:summary="@string/status_semipermeable_summary"/>
 
     <PreferenceCategory
             android:title="@string/makers_title" />

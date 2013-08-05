@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">高级设置</string>
-    <string name="other_title">其他选项</string>
+    <string name="status_title">状态栏</string>
     <string name="audio_settings_title">音效设置</string>
     <string name="system_settings_title">系统相关</string>
     <string name="general_settings_title">常规设置</string>
@@ -27,15 +27,14 @@
     <string name="external_sdcard">外置SD卡</string>
 
     <!-- System Settings / Reboot (Recovery) / Change IMEI (MEID) -->
-    <string name="shutdown_title">正常关机</string>
-    <string name="quick_reboot_title">快速重启</string>
-    <string name="reboot_recovery_title">刷机模式</string>
-    <string name="shutdown_summary">彻底关闭手机电源</string>
-    <string name="quick_reboot_summary">快速重启手机，省时节能</string>
-    <string name="reboot_recovery_summary">重启到 Recovery 进行刷机等操作</string>
-    <string name="confirm_shutdown">确认正常关机?</string>
-    <string name="confirm_reboot">确认快速重启?</string>
-    <string name="confirm_recreboot">确认进入刷机模式?</string>
+    <string name="right_lockscreen_title">右上角一键锁屏</string>
+    <string name="right_lockscreen_summary">开启/关闭右上角一键锁屏</string>
+    <string name="left_lockscreen_title">左上角一键锁屏</string>
+    <string name="left_lockscreen_summary">开启/关闭左上角一键锁屏</string>
+    <string name="traffic_title">网速显示</string>
+    <string name="traffic_summary">开启/关闭网速显示</string>
+    <string name="status_semipermeable_title">状态栏半透</string>
+    <string name="status_semipermeable_summary">开启/关闭状态栏半透</string>
     <string name="mtk_emode_title">MTK工程模式</string>
     <string name="mtk_emode_summary">调用MTK工程模式进行手机设备测试或调整</string>
     <string name="network_mode_title">首选网络模式</string>
@@ -49,9 +48,5 @@
     <string name="makers_title">关于程序</string>
     <string name="makers_name">作者: Michellgaby</string>
     <string name="makers_summary">更多信息请关注搞机圈论坛.</string>
-
-    <!-- Other String -->
-    <string name="OK">确认</string>
-    <string name="CANCEL">取消</string>
 
 </resources>
